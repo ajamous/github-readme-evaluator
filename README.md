@@ -2,13 +2,18 @@
 
 #### Description
 
-The GitHub README Evaluator is a web-based tool designed to evaluate the effectiveness of a GitHub README file. The tool scans a README for essential sections, checks its length, and evaluates its readability, providing actionable feedback to improve your documentation.
+The GitHub README Evaluator is a web-based tool powered by OpenAI's GPT-3, designed to evaluate and improve the effectiveness of a GitHub README file. The tool scans a README for essential sections, checks its length, evaluates its readability, and leverages natural language processing to provide actionable feedback and suggestions for improvement.
 
 #### 🚀 Features
 
 - Evaluates essential README sections like "Getting Started", "Usage", "Installation", etc.
-- Provides readability scores.
+- Provides readability scores based on the Flesch Reading Ease test.
 - Easy-to-understand feedback with suggestions for improvement.
+- **New:** Uses OpenAI's GPT-3 for Natural Language Processing tasks including:
+  - Quality evaluation of the README text
+  - Summarization of README content
+  - Topic Modeling to identify main themes
+  - Personalized recommendations for README improvements
   
 #### 📚 Table of Contents
 
@@ -54,7 +59,3 @@ The GitHub README Evaluator is a web-based tool designed to evaluate the effecti
 #### 📝 License
 
 MIT License. See `LICENSE` for more information.
-
----
-
-Feel free to adapt the above template to better fit your specific project requirements. Make sure to include this README file in the root directory of your GitHub repository.
