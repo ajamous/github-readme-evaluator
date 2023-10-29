@@ -44,8 +44,11 @@ The GitHub README Evaluator is a web-based tool powered by OpenAI's GPT-3, desig
   
 #### 🎯 Usage
 
+https://github.com/ajamous/github-readme-evaluator/assets/19316784/08dcaee4-ae0a-4111-a045-16d3e012d76d
+
+
 1. Open your browser and go to `http://127.0.0.1:5000/`
-2. Enter a GitHub repository URL
+2. Enter a GitHub repository URL in this format `github_username/repo_name`
 3. Click "Evaluate" to get results
 
 #### 👨‍💻 Contribution
