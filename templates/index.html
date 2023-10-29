@@ -49,6 +49,13 @@
         .missing-icon {
             color: red;
         }
+        ul, li {
+        overflow-wrap: break-word;
+        word-wrap: break-word;
+        
+    }
+ 
+
 
     </style>
 </head>
@@ -61,6 +68,15 @@
         <input type="text" id="repo_url" name="repo_url">
         <button type="submit">Evaluate</button>
     </form>
+
+        <!-- Loading Spinner -->
+        <center>
+        <div id="loading" style="display:none;">
+            <p>Loading AI Evaluation Results... Please wait.</p>
+            <!-- You can also add a spinner image here -->
+        </div>
+        </center>
+
 
     {% if evaluation %}
     <h2>Evaluation Results:</h2>
@@ -87,6 +103,18 @@
         {% endfor %}
     </ul>
     {% endif %}
+
+            <!-- ... (Your existing evaluation results section) ... -->
+    
+            <script>
+                document.addEventListener("DOMContentLoaded", function() {
+                    const form = document.querySelector("form");
+        
+                    form.addEventListener("submit", function() {
+                        document.getElementById("loading").style.display = "block"; // Show the loading spinner
+                    });
+                });
+            </script>
 
 </body>
 </html>
