@@ -22,7 +22,7 @@ The GitHub README Evaluator is a web-based tool designed to evaluate the effecti
 
 1. Clone the repository
     ```
-    git clone https://github.com/your_username/github-readme-evaluator.git
+    git clone https://github.com/ajamous/github-readme-evaluator.git
     ```
 2. Navigate to the project directory
     ```
